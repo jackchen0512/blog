@@ -5,12 +5,12 @@ const announcementBarContent = ''
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '愧怍的小站',
+  title: '小栈博客',
   titleDelimiter: '-',
-  url: 'https://kuizuo.cn',
+  url: 'http://blog2.0512.website',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'kuizuo',
+  organizationName: 'xiaozhan',
   projectName: 'blog',
   tagline: '记录所学知识，领略编程之美',
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -23,7 +23,7 @@ const config = {
     metadata: [
       {
         name: 'keywords',
-        content: '愧怍',
+        content: '小栈博客',
       },
       {
         name: 'keywords',
@@ -40,9 +40,9 @@ const config = {
       },
     },
     navbar: {
-      title: '愧怍',
+      title: '小栈',
       logo: {
-        alt: '愧怍',
+        alt: '小栈',
         src: 'img/logo.webp',
         srcDark: 'img/logo.webp',
       },
@@ -153,7 +153,7 @@ const config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/kuizuo',
+              href: 'https://github.com/jackchen0512',
             },
             {
               label: '掘金',
@@ -189,7 +189,7 @@ const config = {
           ],
         },
       ],
-      copyright: `<p><a href="http://beian.miit.gov.cn/" >${beian}</a></p><p>Copyright © 2020 - PRESENT 愧怍 Built with Docusaurus.</p>`,
+      copyright: `<p><a href="http://beian.miit.gov.cn/" >${beian}</a></p><p>Copyright © 2023 - PRESENT 小栈博客 Built with Docusaurus.</p>`,
     },
     prism: {
       theme: require('prism-react-renderer/themes/vsLight'),
@@ -243,12 +243,12 @@ const config = {
       playgroundPosition: 'top',
     },
     socials: {
-      github: 'https://github.com/kuizuo',
-      twitter: 'https://twitter.com/kuizuo',
+      github: 'https://github.com/jackchen0512',
+      twitter: 'https://twitter.com/jackchen0512',
       juejin: 'https://juejin.cn/user/1565318510545901',
-      csdn: 'https://blog.csdn.net/kuizuo12',
-      qq: 'https://wpa.qq.com/msgrd?v=3&amp;uin=911993023&amp;site=qq',
-      zhihu: 'https://www.zhihu.com/people/kuizuo',
+      csdn: 'https://blog.csdn.net/jackchen0512',
+      qq: 'https://wpa.qq.com/msgrd?v=3&amp;uin=82042004&amp;site=qq',
+      zhihu: 'https://www.zhihu.com/people/jackchen0512',
       cloudmusic: 'https://music.163.com/#/user/home?id=1333010742',
     },
   },
@@ -257,7 +257,7 @@ const config = {
       tagName: 'meta',
       attributes: {
         name: 'description',
-        content: '愧怍的个人博客',
+        content: 'JackChen个人博客',
       },
     },
   ],
@@ -301,7 +301,7 @@ const config = {
         editUrl: ({ locale, blogDirPath, blogPath, permalink }) =>
           `https://github.com/kuizuo/blog/edit/main/${blogDirPath}/${blogPath}`,
         editLocalizedFiles: false,
-        blogDescription: '愧怍的个人博客',
+        blogDescription: 'jackchen0512个人博客',
         blogSidebarCount: 10,
         blogSidebarTitle: '最近更新',
         postsPerPage: 10,
@@ -310,8 +310,8 @@ const config = {
           defaultReadingTime({ content, options: { wordsPerMinute: 300 } }),
         feedOptions: {
           type: 'all',
-          title: '愧怍',
-          copyright: `Copyright © ${new Date().getFullYear()} 愧怍 Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
+          title: '小栈博客',
+          copyright: `Copyright © ${new Date().getFullYear()} 小栈博客 Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
         },
       },
     ],
