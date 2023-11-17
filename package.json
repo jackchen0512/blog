@@ -2,15 +2,15 @@
   "name": "blog",
   "version": "2.3.1",
   "author": {
-    "url": "https://github.com/kuizuo",
-    "email": "hi@kuizuo.cn",
-    "name": "Kuizuo"
+    "url": "https://github.com/jackchen0512",
+    "email": "jack0512cn@gmail.com",
+    "name": "Jack Chen"
   },
   "repository": {
-    "url": "https://github.com/kuizuo/blog",
+    "url": "https://github.com/jackchen0512/blog",
     "type": "git"
   },
-  "homepage": "https://kuizuo.cn",
+  "homepage": "http://blog2.0512.website",
   "license": "MIT",
   "scripts": {
     "docusaurus": "docusaurus",
